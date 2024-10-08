@@ -1,1 +1,43 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Non Photo blue (Text):      #2A2D34      (text, contrast with dark)
+* Sea Green (Primary):        #5C946E      
+* Cambridge blue (Secondary): #80C2AF      (canvas background)
+* Gunmetal (Accent):          #A0DDE6
+*/
+
+.navbar-brand{
+    font-family: 'Caveat', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.bg-info {
+    background-color: #72b372 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #5C946E;            /* Sea green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #A0DDE6;            /* Non photo blue shade for text on info button for contrast */
+    background-color: #80C2AF; /* Cambridge blue for button background */
+    border-color: #5C946E;     /* Sea green for button border */
+}
+
+.btn-primary {
+    color: #A0DDE6;            /* Non photo blue shade for text */
+    font-size: 150%;
+    background-color: #5C946E; /* Sea green for primary button background */
+    border-color: #2A2D34;     /* Gunmetal for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #A0DDE6; /* Non photo blue shade for body background to follow the 60% rule */
+}
